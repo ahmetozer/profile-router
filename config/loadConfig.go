@@ -19,7 +19,7 @@ func LoadConfig() (Settings, error) {
 		log.Fatalf("dirname: %v", err)
 	}
 	data := Settings{}
-	var config_dir = dirname + share.PATH_SEPARATOR + "profilerouter.json"
+	var config_dir = dirname + share.PATH_SEPARATOR + ".profilerouter.json"
 	file, err := ioutil.ReadFile(config_dir)
 
 	if err != nil {
