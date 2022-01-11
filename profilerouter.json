@@ -1,0 +1,13 @@
+{   
+    "Profile": [
+        { "Profile":"Default","DisplayName":"Ahmet"},
+        { "Profile":"Guest","DisplayName":"Guest"},
+        {}
+    ],
+    "Site": [
+        {"Domain": "google.com", "Profile": "Default"},
+        {"Domain": "ahmetozer.org", "Profile": "Default"},
+        {"Domain": "ahmet.engineer", "Profile": "Default"}
+
+    ]
+}

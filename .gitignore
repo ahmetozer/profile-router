@@ -1,0 +1,6 @@
+experimental
+*secret*
+*.exe
+*.bin
+.vscode
+profile-router
